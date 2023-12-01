@@ -1,0 +1,1279 @@
+{
+    "dup_type": "lite",
+    "created": "2023-11-30 16:54:56",
+    "version_dup": "1.5.7.1",
+    "version_wp": "6.4.1",
+    "version_db": "10.5.15",
+    "version_php": "7.4.33",
+    "version_os": "Linux",
+    "blogname": "Keep",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$tQF6.Hxzmd.e3D8iti0hMupDSi3c1QTICDmeCiYA4yALlgkoz\/1we",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wpob_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "keeponweb.net",
+            "path": "\/",
+            "blogname": "Keep",
+            "blog_prefix": "wpob_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "abbasfun",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/keeponweb.net",
+            "fullSiteUrl": "https:\/\/keeponweb.net",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/rumakers\/keeponweb.net\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/rumakers\/keeponweb.net\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/keeponweb.net\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8"
+        ],
+        "collationList": [
+            "utf8_bin",
+            "utf8_general_ci",
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "rumakers_a2wp466",
+        "tablesBaseCount": 105,
+        "tablesFinalCount": 105,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 2866,
+        "tablesSizeOnDisk": 8077312,
+        "tablesList": {
+            "wpob_actionscheduler_actions": {
+                "inaccurateRows": 162,
+                "insertedRows": 162,
+                "size": 212992
+            },
+            "wpob_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_actionscheduler_groups": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 32768
+            },
+            "wpob_actionscheduler_logs": {
+                "inaccurateRows": 470,
+                "insertedRows": 470,
+                "size": 98304
+            },
+            "wpob_amelia_appointments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_cache": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_categories": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_coupons": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_coupons_to_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_coupons_to_packages": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_coupons_to_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_customer_bookings": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_customer_bookings_to_events_periods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_customer_bookings_to_events_tickets": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_customer_bookings_to_extras": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_custom_fields": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_custom_fields_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_custom_fields_options": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_custom_fields_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_events_periods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_events_tags": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_events_to_providers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_events_to_tickets": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_extras": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_galleries": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_locations_views": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_notifications": {
+                "inaccurateRows": 73,
+                "insertedRows": 73,
+                "size": 49152
+            },
+            "wpob_amelia_notifications_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_notifications_sms_history": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_notifications_to_entities": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_packages": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_packages_customers_to_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_packages_services_to_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_packages_services_to_providers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_packages_to_customers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_packages_to_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_payments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_providers_to_daysoff": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_google_calendar": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_outlook_calendar": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_periods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_periods_location": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_periods_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_specialdays": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_specialdays_periods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_specialdays_periods_location": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_specialdays_periods_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_timeouts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_to_weekdays": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_providers_views": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_resources": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_resources_to_entities": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_amelia_services_views": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_amelia_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpob_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpob_comments": {
+                "inaccurateRows": 37,
+                "insertedRows": 37,
+                "size": 131072
+            },
+            "wpob_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpob_em_bookings": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpob_em_bookings_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpob_em_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 180224
+            },
+            "wpob_em_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "wpob_em_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpob_em_tickets": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_em_tickets_bookings": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wpob_em_tickets_bookings_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpob_etn_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_etn_trans_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpob_ewwwio_images": {
+                "inaccurateRows": 80,
+                "insertedRows": 80,
+                "size": 49152
+            },
+            "wpob_ewwwio_queue": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_my_calendar": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpob_my_calendar_categories": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wpob_my_calendar_category_relationships": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpob_my_calendar_events": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpob_my_calendar_locations": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wpob_my_calendar_location_relationships": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpob_options": {
+                "inaccurateRows": 927,
+                "insertedRows": 917,
+                "size": 1671168
+            },
+            "wpob_postmeta": {
+                "inaccurateRows": 340,
+                "insertedRows": 340,
+                "size": 114688
+            },
+            "wpob_posts": {
+                "inaccurateRows": 260,
+                "insertedRows": 321,
+                "size": 1654784
+            },
+            "wpob_ssa_appointments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "wpob_ssa_appointment_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpob_ssa_appointment_types": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 81920
+            },
+            "wpob_ssa_appointment_type_labels": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpob_ssa_async_actions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wpob_ssa_availability": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 180224
+            },
+            "wpob_ssa_availability_external": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "wpob_ssa_revisions": {
+                "inaccurateRows": 16,
+                "insertedRows": 16,
+                "size": 212992
+            },
+            "wpob_ssa_revision_meta": {
+                "inaccurateRows": 32,
+                "insertedRows": 32,
+                "size": 147456
+            },
+            "wpob_tec_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_tec_occurrences": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpob_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpob_terms": {
+                "inaccurateRows": 43,
+                "insertedRows": 43,
+                "size": 49152
+            },
+            "wpob_term_relationships": {
+                "inaccurateRows": 47,
+                "insertedRows": 47,
+                "size": 32768
+            },
+            "wpob_term_taxonomy": {
+                "inaccurateRows": 43,
+                "insertedRows": 43,
+                "size": 49152
+            },
+            "wpob_usermeta": {
+                "inaccurateRows": 301,
+                "insertedRows": 301,
+                "size": 98304
+            },
+            "wpob_users": {
+                "inaccurateRows": 20,
+                "insertedRows": 20,
+                "size": 65536
+            },
+            "wpob_user_registration_sessions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpob_wpforms_payments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "wpob_wpforms_payment_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wpob_wpforms_tasks_meta": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 16384
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.5.15",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20231130_keep",
+        "packageHash": "8a58749-30165456",
+        "secondaryHash": "bc33e78-30165456"
+    },
+    "fileInfo": {
+        "dirCount": 1958,
+        "fileCount": 11319,
+        "size": 113712029
+    },
+    "wpInfo": {
+        "version": "6.4.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/rumakers\/keeponweb.net",
+        "targetPaths": [
+            "\/home\/rumakers\/keeponweb.net"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "abbasfun",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/rumakers\/keeponweb.net\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "phvnzlttilr0zpwbw2it0pumlxxvnz4hinxrutngdovb3jmw6pnf5nkipzngv8uv",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "9upys4fyx2kv10pzurnfkuqe8fsoramyqeww5chknf7krwokjk3n96z0jxivymnn",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "naopxuuwgkt25eylqkzpnvdrnauisriarbzvaffwmyrjwfftftkvomds8fkkntfu",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "jbway1bfdhbkrdqxtdpyyxgclwenhribv2q0pxl4akalj8mtc882sqpkkd32bmj0",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "wo8qxqy1xykgc0r7zzqlxefuwugmpyercy8qvkf3cwvmaka3kip4smsyoqaizjzi",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "dr1tjoukjl3bpkkwfdezo1ql62xh66ismxslcofglsszpkrd1hurcrzjug8wwqly",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "qqiip7xlakse1haeuetaiuoiyp7igiw1xqd1qki9y1dv8oahnnyocnigcbez9m8h",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "dolbrp5appkxdbegyiflh5q0fxgxfzp2pgrrjep5kq5abzwqjc2u0ccri3ruwrjk",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/rumakers\/keeponweb.net\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/keeponweb.net\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/rumakers\/keeponweb.net\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/keeponweb.net\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "768M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/rumakers\/keeponweb.net\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "DISABLE_WP_CRON": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/rumakers\/keeponweb.net\/wp-content\/themes\/extendable",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/rumakers\/keeponweb.net\/wp-content\/themes\/extendable",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/rumakers\/keeponweb.net\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/keeponweb.net\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/keeponweb.net",
+                "homeUrl": "https:\/\/keeponweb.net",
+                "loginUrl": "https:\/\/keeponweb.net\/wp-login.php",
+                "contentUrl": "https:\/\/keeponweb.net\/wp-content",
+                "uploadBaseUrl": "https:\/\/keeponweb.net\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/keeponweb.net\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/keeponweb.net\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/keeponweb.net\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/rumakers\/keeponweb.net",
+                    "abs": "\/home\/rumakers\/keeponweb.net",
+                    "wpconfig": "\/home\/rumakers\/keeponweb.net",
+                    "wpcontent": "\/home\/rumakers\/keeponweb.net\/wp-content",
+                    "uploads": "\/home\/rumakers\/keeponweb.net\/wp-content\/uploads",
+                    "plugins": "\/home\/rumakers\/keeponweb.net\/wp-content\/plugins",
+                    "muplugins": "\/home\/rumakers\/keeponweb.net\/wp-content\/mu-plugins",
+                    "themes": "\/home\/rumakers\/keeponweb.net\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/rumakers\/keeponweb.net",
+                    "abs": "\/home\/rumakers\/keeponweb.net",
+                    "wpconfig": "\/home\/rumakers\/keeponweb.net",
+                    "wpcontent": "\/home\/rumakers\/keeponweb.net\/wp-content",
+                    "uploads": "\/home\/rumakers\/keeponweb.net\/wp-content\/uploads",
+                    "plugins": "\/home\/rumakers\/keeponweb.net\/wp-content\/plugins",
+                    "muplugins": "\/home\/rumakers\/keeponweb.net\/wp-content\/mu-plugins",
+                    "themes": "\/home\/rumakers\/keeponweb.net\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "a2-optimized-wp\/a2-optimized.php": {
+                "slug": "a2-optimized-wp\/a2-optimized.php",
+                "name": "A2 Optimized WP",
+                "version": "3.0.7.2",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/a2-optimized\/",
+                "author": "A2 Hosting",
+                "authorURI": "https:\/\/www.a2hosting.com\/",
+                "description": "Automatically optimizes performance and security. Works together with LiteSpeed Cache.",
+                "title": "A2 Optimized WP",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-spam: Spam Protection",
+                "version": "5.3",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic - Anti-spam Team",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-spam: Spam Protection",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.7.1",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "ewww-image-optimizer\/ewww-image-optimizer.php": {
+                "slug": "ewww-image-optimizer\/ewww-image-optimizer.php",
+                "name": "EWWW Image Optimizer",
+                "version": "7.2.1",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/ewww-image-optimizer\/",
+                "author": "Exactly WWW",
+                "authorURI": "https:\/\/ewww.io\/",
+                "description": "Smaller Images, Faster Sites, Happier Visitors. Comprehensive image optimization that doesn't require a degree in rocket science.",
+                "title": "EWWW Image Optimizer",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "extendify\/extendify.php": {
+                "slug": "extendify\/extendify.php",
+                "name": "Extendify",
+                "version": "1.11.2",
+                "pluginURI": "https:\/\/extendify.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Extendify",
+                "authorURI": "https:\/\/extendify.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "Extendify is the platform of site design and creation tools for people that want to build a beautiful WordPress website with a library of patterns and full page layouts for the Gutenberg block editor.",
+                "title": "Extendify",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "jetpack\/jetpack.php": {
+                "slug": "jetpack\/jetpack.php",
+                "name": "Jetpack",
+                "version": "12.8.1",
+                "pluginURI": "https:\/\/jetpack.com",
+                "author": "Automattic",
+                "authorURI": "https:\/\/jetpack.com",
+                "description": "Security, performance, and marketing tools made by WordPress experts. Jetpack keeps your site protected so you can focus on more important things.",
+                "title": "Jetpack",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "loginpress\/loginpress.php": {
+                "slug": "loginpress\/loginpress.php",
+                "name": "LoginPress - Customizing the WordPress Login Screen.",
+                "version": "1.8.0",
+                "pluginURI": "https:\/\/loginpress.pro\/?utm_source=loginpress-lite&utm_medium=plugin-inside&utm_campaign=pro-upgrade&utm_content=plugin_uri",
+                "author": "WPBrigade",
+                "authorURI": "https:\/\/WPBrigade.com\/?utm_source=loginpress-lite",
+                "description": "LoginPress is the best <code>wp-login<\/code> Login Page Customizer plugin by <a href=\"https:\/\/wpbrigade.com\/?utm_source=loginpress-lite\">WPBrigade<\/a> which allows you to completely change the layout of login, register and forgot password forms.",
+                "title": "LoginPress - Customizing the WordPress Login Screen.",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "01-ext-a2\/01-ext-a2.php": {
+                "slug": "01-ext-a2\/01-ext-a2.php",
+                "name": "Site Assistant",
+                "version": "1.0.0",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "Provides guided onboarding and a Site Assistant in the WordPress admin.",
+                "title": "Site Assistant",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-event-manager\/wp-event-manager.php": {
+                "slug": "wp-event-manager\/wp-event-manager.php",
+                "name": "WP Event Manager",
+                "version": "3.1.38",
+                "pluginURI": "https:\/\/www.wp-eventmanager.com\/",
+                "author": "WP Event Manager",
+                "authorURI": "https:\/\/www.wp-eventmanager.com",
+                "description": "Lightweight, scalable and full-featured event listings & management plugin for managing event listings from the Frontend and Backend.",
+                "title": "WP Event Manager",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wpforms-lite\/wpforms.php": {
+                "slug": "wpforms-lite\/wpforms.php",
+                "name": "WPForms Lite",
+                "version": "1.8.3.1",
+                "pluginURI": "https:\/\/wpforms.com",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com",
+                "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+                "title": "WPForms Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-password-bcrypt.php": {
+                "slug": "wp-password-bcrypt.php",
+                "name": "WP Password bcrypt",
+                "version": "1.1.0",
+                "pluginURI": "https:\/\/github.com\/roots\/wp-password-bcrypt",
+                "author": "Roots",
+                "authorURI": "https:\/\/roots.io",
+                "description": "Replaces wp_hash_password and wp_check_password with password_hash and password_verify.",
+                "title": "WP Password bcrypt",
+                "networkActive": false,
+                "active": false,
+                "mustUse": true,
+                "dropIns": false
+            },
+            "advanced-cache.php": {
+                "slug": "advanced-cache.php",
+                "name": "advanced-cache.php",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "",
+                "title": "",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": true
+            }
+        },
+        "themes": {
+            "blocksy": {
+                "slug": "blocksy",
+                "themeName": "Blocksy",
+                "version": "1.9.7",
+                "themeURI": "https:\/\/creativethemes.com\/blocksy\/",
+                "parentTheme": false,
+                "template": "blocksy",
+                "stylesheet": "blocksy",
+                "description": "Blocksy is a blazing fast and lightweight WordPress theme built with the latest web technologies. It was built with the Gutenberg editor in mind and has a lot of options that makes it extendable and customizable. You can easily create any type of website, such as business agency, shop, corporate, education, restaurant, blog, portfolio, landing page and so on. It works like a charm with popular WordPress page builders, including Elementor, Beaver Builder, Visual Composer and Brizy. Since it is responsive and adaptive, translation ready, SEO optimized and has WooCommerce built-in, you will experience an easy build and even an increase in conversions. Note: Blocksy is built with the latest web technologies in order to bring you the smoothest experience, that told, old browsers like IE 11 and below may not work as expected. We strongly recommend you to update\/switch to a modern browser.",
+                "author": "CreativeThemes",
+                "authorURI": "https:\/\/creativethemes.com",
+                "tags": [
+                    "blog",
+                    "e-commerce",
+                    "wide-blocks",
+                    "block-styles",
+                    "grid-layout",
+                    "one-column",
+                    "two-columns",
+                    "three-columns",
+                    "four-columns",
+                    "right-sidebar",
+                    "left-sidebar",
+                    "translation-ready",
+                    "custom-colors",
+                    "custom-logo",
+                    "custom-menu",
+                    "featured-images",
+                    "footer-widgets",
+                    "full-width-template",
+                    "theme-options",
+                    "threaded-comments",
+                    "buddypress",
+                    "rtl-language-support",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "extendable": {
+                "slug": "extendable",
+                "themeName": "Extendable",
+                "version": "2.0.5",
+                "themeURI": "https:\/\/github.com\/extendify\/extendable",
+                "parentTheme": false,
+                "template": "extendable",
+                "stylesheet": "extendable",
+                "description": "Extendable is a distinct, dynamic block theme designed as a canvas for your next online venture. Sporting multiple style variations, Extendable is the most expressive block theme yet. Go fresh, bold, bohemian or minimal \u2014 with a single click.",
+                "author": "Extendify",
+                "authorURI": "https:\/\/extendify.com",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "e-commerce",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "go": {
+                "slug": "go",
+                "themeName": "Go",
+                "version": "1.8.6",
+                "themeURI": "https:\/\/github.com\/godaddy-wordpress\/go",
+                "parentTheme": false,
+                "template": "go",
+                "stylesheet": "go",
+                "description": "Go is an innovative, Gutenberg-first WordPress theme, hyper-focused on empowering makers to build beautifully rich websites with WordPress.",
+                "author": "GoDaddy",
+                "authorURI": "https:\/\/www.godaddy.com",
+                "tags": [
+                    "block-styles",
+                    "custom-colors",
+                    "custom-logo",
+                    "custom-menu",
+                    "e-commerce",
+                    "editor-style",
+                    "one-column",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentyone": {
+                "slug": "twentytwentyone",
+                "themeName": "Twenty Twenty-One",
+                "version": "1.9",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyone\/",
+                "parentTheme": false,
+                "template": "twentytwentyone",
+                "stylesheet": "twentytwentyone",
+                "description": "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme\u2019s soft colors and eye-catching \u2014 yet timeless \u2014 design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "accessibility-ready",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.5",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Keep"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20231130_keep_8a58749cf6d68dfb4449_20231130165456_installer-backup.php",
+    "package_name": "20231130_keep_8a58749cf6d68dfb4449_20231130165456_archive.zip",
+    "package_hash": "8a58749-30165456",
+    "package_notes": ""
+}
